@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #aaa8a8;
+    border-radius: 20px;
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url("./Poppins-Regular.ttf") format("truetype");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url("./Montserrat-Black.ttf");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+/* header{
+    background-image: url(../../assets/images/013ac8cc64524d97e0e80d31b1575b28.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}] */
+
